@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nickname": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "twitter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "jike": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account"
+    },
+    "github": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "accounts"
+    }
+  }
+}
