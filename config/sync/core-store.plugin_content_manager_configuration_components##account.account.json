@@ -46,23 +46,44 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "link": {
+        "edit": {
+          "label": "link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "link",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
       "list": [
         "id",
         "name",
-        "follows"
+        "follows",
+        "link"
       ],
       "edit": [
         [
           {
             "name": "name",
             "size": 6
-          },
+          }
+        ],
+        [
           {
             "name": "follows",
-            "size": 4
+            "size": 6
+          },
+          {
+            "name": "link",
+            "size": 6
           }
         ]
       ]

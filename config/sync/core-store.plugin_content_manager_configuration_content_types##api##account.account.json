@@ -47,16 +47,16 @@
           "sortable": false
         }
       },
-      "description": {
+      "bio": {
         "edit": {
-          "label": "description",
+          "label": "bio",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "description",
+          "label": "bio",
           "searchable": true,
           "sortable": true
         }
@@ -116,6 +116,48 @@
           "label": "tags",
           "searchable": false,
           "sortable": false
+        }
+      },
+      "xhs": {
+        "edit": {
+          "label": "xhs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "xhs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "douyin": {
+        "edit": {
+          "label": "douyin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "douyin",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "avatar": {
+        "edit": {
+          "label": "avatar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "avatar",
+          "searchable": true,
+          "sortable": true
         }
       },
       "createdAt": {
@@ -182,28 +224,26 @@
         [
           {
             "name": "nickname",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "avatar",
+            "size": 4
           },
           {
             "name": "tags",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
-            "name": "description",
+            "name": "bio",
             "size": 12
           }
         ],
         [
           {
             "name": "twitter",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "jike",
             "size": 12
           }
         ],
@@ -216,6 +256,24 @@
         [
           {
             "name": "github",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "jike",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "xhs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "douyin",
             "size": 12
           }
         ]

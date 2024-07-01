@@ -23,7 +23,7 @@
       "component": "account.account",
       "required": false
     },
-    "description": {
+    "bio": {
       "type": "text"
     },
     "jike": {
@@ -46,6 +46,20 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "mappedBy": "accounts"
+    },
+    "xhs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account"
+    },
+    "douyin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.account"
+    },
+    "avatar": {
+      "type": "string",
+      "required": true
     }
   }
 }

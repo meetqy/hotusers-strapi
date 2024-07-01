@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-06-30T05:12:25.426Z"
+    "x-generation-date": "2024-07-01T15:17:19.966Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -94,7 +94,8 @@
         "properties": {
           "data": {
             "required": [
-              "nickname"
+              "nickname",
+              "avatar"
             ],
             "type": "object",
             "properties": {
@@ -104,7 +105,7 @@
               "twitter": {
                 "$ref": "#/components/schemas/AccountAccountComponent"
               },
-              "description": {
+              "bio": {
                 "type": "string"
               },
               "jike": {
@@ -129,6 +130,15 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "xhs": {
+                "$ref": "#/components/schemas/AccountAccountComponent"
+              },
+              "douyin": {
+                "$ref": "#/components/schemas/AccountAccountComponent"
+              },
+              "avatar": {
+                "type": "string"
               }
             }
           }
@@ -183,7 +193,8 @@
       "Account": {
         "type": "object",
         "required": [
-          "nickname"
+          "nickname",
+          "avatar"
         ],
         "properties": {
           "nickname": {
@@ -192,7 +203,7 @@
           "twitter": {
             "$ref": "#/components/schemas/AccountAccountComponent"
           },
-          "description": {
+          "bio": {
             "type": "string"
           },
           "jike": {
@@ -249,10 +260,13 @@
                                           },
                                           "follows": {
                                             "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
                                           }
                                         }
                                       },
-                                      "description": {
+                                      "bio": {
                                         "type": "string"
                                       },
                                       "jike": {
@@ -266,6 +280,9 @@
                                           },
                                           "follows": {
                                             "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
                                           }
                                         }
                                       },
@@ -280,6 +297,9 @@
                                           },
                                           "follows": {
                                             "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
                                           }
                                         }
                                       },
@@ -294,6 +314,9 @@
                                           },
                                           "follows": {
                                             "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
                                           }
                                         }
                                       },
@@ -316,6 +339,43 @@
                                             }
                                           }
                                         }
+                                      },
+                                      "xhs": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "name": {
+                                            "type": "string"
+                                          },
+                                          "follows": {
+                                            "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "douyin": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "name": {
+                                            "type": "string"
+                                          },
+                                          "follows": {
+                                            "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "avatar": {
+                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -667,6 +727,15 @@
               }
             }
           },
+          "xhs": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "douyin": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "avatar": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -744,6 +813,9 @@
           },
           "follows": {
             "type": "integer"
+          },
+          "link": {
+            "type": "string"
           }
         }
       },
@@ -863,10 +935,13 @@
                             },
                             "follows": {
                               "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
                             }
                           }
                         },
-                        "description": {
+                        "bio": {
                           "type": "string"
                         },
                         "jike": {
@@ -880,6 +955,9 @@
                             },
                             "follows": {
                               "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
                             }
                           }
                         },
@@ -894,6 +972,9 @@
                             },
                             "follows": {
                               "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
                             }
                           }
                         },
@@ -908,6 +989,9 @@
                             },
                             "follows": {
                               "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
                             }
                           }
                         },
@@ -1248,6 +1332,43 @@
                               }
                             }
                           }
+                        },
+                        "xhs": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "follows": {
+                              "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "douyin": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "follows": {
+                              "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "avatar": {
+                          "type": "string"
                         },
                         "createdAt": {
                           "type": "string",

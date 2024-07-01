@@ -15,6 +15,10 @@
     "follows": {
       "type": "integer",
       "required": false
+    },
+    "link": {
+      "type": "string",
+      "unique": false
     }
   }
 }

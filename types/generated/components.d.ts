@@ -10,6 +10,7 @@ export interface AccountAccount extends Schema.Component {
   attributes: {
     name: Attribute.String & Attribute.Required;
     follows: Attribute.Integer;
+    link: Attribute.String;
   };
 }
 

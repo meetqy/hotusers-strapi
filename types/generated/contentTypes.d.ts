@@ -376,7 +376,7 @@ export interface ApiAccountAccount extends Schema.CollectionType {
   attributes: {
     nickname: Attribute.String & Attribute.Required;
     twitter: Attribute.Component<'account.account'>;
-    description: Attribute.Text;
+    bio: Attribute.Text;
     jike: Attribute.Component<'account.account'>;
     youtube: Attribute.Component<'account.account'>;
     github: Attribute.Component<'account.account'>;
@@ -385,6 +385,9 @@ export interface ApiAccountAccount extends Schema.CollectionType {
       'manyToMany',
       'api::tag.tag'
     >;
+    xhs: Attribute.Component<'account.account'>;
+    douyin: Attribute.Component<'account.account'>;
+    avatar: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
