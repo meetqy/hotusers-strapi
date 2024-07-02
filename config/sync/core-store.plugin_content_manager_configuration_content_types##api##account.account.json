@@ -224,11 +224,15 @@
         [
           {
             "name": "nickname",
-            "size": 6
+            "size": 4
           },
           {
             "name": "avatar",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "tags",
+            "size": 4
           }
         ],
         [
@@ -259,12 +263,6 @@
           {
             "name": "github",
             "size": 12
-          }
-        ],
-        [
-          {
-            "name": "tags",
-            "size": 6
           }
         ],
         [
