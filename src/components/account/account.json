@@ -7,11 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": false,
-      "unique": false
-    },
     "follows": {
       "type": "integer",
       "required": false

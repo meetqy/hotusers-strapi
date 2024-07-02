@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-02T08:19:54.634Z"
+    "x-generation-date": "2024-07-02T08:21:56.650Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -380,9 +380,6 @@
                                           "id": {
                                             "type": "number"
                                           },
-                                          "name": {
-                                            "type": "string"
-                                          },
                                           "follows": {
                                             "type": "integer"
                                           },
@@ -400,9 +397,6 @@
                                           "id": {
                                             "type": "number"
                                           },
-                                          "name": {
-                                            "type": "string"
-                                          },
                                           "follows": {
                                             "type": "integer"
                                           },
@@ -417,9 +411,6 @@
                                           "id": {
                                             "type": "number"
                                           },
-                                          "name": {
-                                            "type": "string"
-                                          },
                                           "follows": {
                                             "type": "integer"
                                           },
@@ -433,9 +424,6 @@
                                         "properties": {
                                           "id": {
                                             "type": "number"
-                                          },
-                                          "name": {
-                                            "type": "string"
                                           },
                                           "follows": {
                                             "type": "integer"
@@ -471,9 +459,6 @@
                                           "id": {
                                             "type": "number"
                                           },
-                                          "name": {
-                                            "type": "string"
-                                          },
                                           "follows": {
                                             "type": "integer"
                                           },
@@ -487,9 +472,6 @@
                                         "properties": {
                                           "id": {
                                             "type": "number"
-                                          },
-                                          "name": {
-                                            "type": "string"
                                           },
                                           "follows": {
                                             "type": "integer"
@@ -971,9 +953,6 @@
           "id": {
             "type": "number"
           },
-          "name": {
-            "type": "string"
-          },
           "follows": {
             "type": "integer"
           },
@@ -1193,9 +1172,6 @@
                             "id": {
                               "type": "number"
                             },
-                            "name": {
-                              "type": "string"
-                            },
                             "follows": {
                               "type": "integer"
                             },
@@ -1213,9 +1189,6 @@
                             "id": {
                               "type": "number"
                             },
-                            "name": {
-                              "type": "string"
-                            },
                             "follows": {
                               "type": "integer"
                             },
@@ -1230,9 +1203,6 @@
                             "id": {
                               "type": "number"
                             },
-                            "name": {
-                              "type": "string"
-                            },
                             "follows": {
                               "type": "integer"
                             },
@@ -1246,9 +1216,6 @@
                           "properties": {
                             "id": {
                               "type": "number"
-                            },
-                            "name": {
-                              "type": "string"
                             },
                             "follows": {
                               "type": "integer"
@@ -1614,9 +1581,6 @@
                             "id": {
                               "type": "number"
                             },
-                            "name": {
-                              "type": "string"
-                            },
                             "follows": {
                               "type": "integer"
                             },
@@ -1630,9 +1594,6 @@
                           "properties": {
                             "id": {
                               "type": "number"
-                            },
-                            "name": {
-                              "type": "string"
                             },
                             "follows": {
                               "type": "integer"
