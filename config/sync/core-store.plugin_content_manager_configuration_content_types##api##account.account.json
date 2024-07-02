@@ -160,6 +160,20 @@
           "sortable": true
         }
       },
+      "bilibili": {
+        "edit": {
+          "label": "bilibili",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bilibili",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -220,6 +234,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "nickname",
+        "twitter",
+        "bio"
+      ],
       "edit": [
         [
           {
@@ -276,13 +296,13 @@
             "name": "douyin",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "bilibili",
+            "size": 12
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "nickname",
-        "twitter",
-        "bio"
       ]
     },
     "uid": "api::account.account"

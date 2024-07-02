@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-02T08:27:54.085Z"
+    "x-generation-date": "2024-07-02T08:41:48.069Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -135,6 +135,9 @@
           "avatar": {
             "type": "string"
           },
+          "bilibili": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -193,6 +196,9 @@
               },
               "avatar": {
                 "type": "string"
+              },
+              "bilibili": {
+                "$ref": "#/components/schemas/AccountAccountComponent"
               },
               "locale": {
                 "type": "string"
@@ -483,6 +489,20 @@
                                       },
                                       "avatar": {
                                         "type": "string"
+                                      },
+                                      "bilibili": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "follows": {
+                                            "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
+                                          }
+                                        }
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -866,6 +886,9 @@
           },
           "avatar": {
             "type": "string"
+          },
+          "bilibili": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
           },
           "createdAt": {
             "type": "string",
@@ -1605,6 +1628,20 @@
                         },
                         "avatar": {
                           "type": "string"
+                        },
+                        "bilibili": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "follows": {
+                              "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "createdAt": {
                           "type": "string",

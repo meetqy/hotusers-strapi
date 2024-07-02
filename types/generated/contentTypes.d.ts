@@ -440,6 +440,12 @@ export interface ApiAccountAccount extends Schema.CollectionType {
           localized: true;
         };
       }>;
+    bilibili: Attribute.Component<'account.account'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

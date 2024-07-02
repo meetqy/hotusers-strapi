@@ -24,7 +24,9 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "bilibili.follows",
+          "bilibili.link"
         ],
         "locales": [
           "en",
@@ -66,7 +68,9 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "bilibili.follows",
+          "bilibili.link"
         ],
         "locales": [
           "en",
@@ -96,7 +100,9 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "bilibili.follows",
+          "bilibili.link"
         ],
         "locales": [
           "en",
