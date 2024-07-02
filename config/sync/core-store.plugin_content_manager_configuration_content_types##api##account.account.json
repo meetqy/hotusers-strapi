@@ -220,29 +220,27 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "nickname",
-        "twitter",
-        "bio"
-      ],
       "edit": [
         [
           {
             "name": "nickname",
             "size": 6
+          },
+          {
+            "name": "avatar",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "bio",
+            "size": 12
           }
         ],
         [
           {
             "name": "twitter",
             "size": 12
-          }
-        ],
-        [
-          {
-            "name": "bio",
-            "size": 6
           }
         ],
         [
@@ -280,13 +278,13 @@
             "name": "douyin",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "avatar",
-            "size": 6
-          }
         ]
+      ],
+      "list": [
+        "id",
+        "nickname",
+        "twitter",
+        "bio"
       ]
     },
     "uid": "api::account.account"
