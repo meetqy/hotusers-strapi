@@ -22,7 +22,7 @@
       "unique": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -33,7 +33,7 @@
       "required": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -43,7 +43,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "jike": {
       "type": "component",
@@ -51,7 +52,7 @@
       "component": "account.account",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -61,7 +62,7 @@
       "component": "account.account",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -71,7 +72,7 @@
       "component": "account.account",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -87,7 +88,7 @@
       "component": "account.account",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -97,16 +98,19 @@
       "component": "account.account",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
     "avatar": {
-      "type": "string",
-      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -115,7 +119,7 @@
       "repeatable": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "component": "account.account"

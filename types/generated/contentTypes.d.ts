@@ -383,16 +383,17 @@ export interface ApiAccountAccount extends Schema.CollectionType {
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     twitter: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     bio: Attribute.Text &
+      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -401,19 +402,19 @@ export interface ApiAccountAccount extends Schema.CollectionType {
     jike: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     youtube: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     github: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     tags: Attribute.Relation<
@@ -424,26 +425,25 @@ export interface ApiAccountAccount extends Schema.CollectionType {
     xhs: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     douyin: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
-    avatar: Attribute.String &
-      Attribute.Required &
+    avatar: Attribute.Media<'images'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     bilibili: Attribute.Component<'account.account'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     createdAt: Attribute.DateTime;
