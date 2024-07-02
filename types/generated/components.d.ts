@@ -8,7 +8,7 @@ export interface AccountAccount extends Schema.Component {
     description: '';
   };
   attributes: {
-    name: Attribute.String & Attribute.Required;
+    name: Attribute.String;
     follows: Attribute.Integer;
     link: Attribute.String;
   };

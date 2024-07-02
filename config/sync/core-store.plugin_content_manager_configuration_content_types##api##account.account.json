@@ -220,30 +220,34 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "nickname",
+        "twitter",
+        "bio"
+      ],
       "edit": [
         [
           {
             "name": "nickname",
-            "size": 4
-          },
-          {
-            "name": "avatar",
-            "size": 4
-          },
-          {
-            "name": "tags",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "bio",
-            "size": 12
+            "size": 6
           }
         ],
         [
           {
             "name": "twitter",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "jike",
             "size": 12
           }
         ],
@@ -261,8 +265,8 @@
         ],
         [
           {
-            "name": "jike",
-            "size": 12
+            "name": "tags",
+            "size": 6
           }
         ],
         [
@@ -276,13 +280,13 @@
             "name": "douyin",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "avatar",
+            "size": 6
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "nickname",
-        "tags",
-        "updatedAt"
       ]
     },
     "uid": "api::account.account"

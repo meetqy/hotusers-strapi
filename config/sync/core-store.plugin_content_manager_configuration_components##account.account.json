@@ -74,13 +74,13 @@
           {
             "name": "name",
             "size": 6
+          },
+          {
+            "name": "follows",
+            "size": 4
           }
         ],
         [
-          {
-            "name": "follows",
-            "size": 6
-          },
           {
             "name": "link",
             "size": 6

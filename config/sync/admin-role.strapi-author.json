@@ -4,6 +4,168 @@
   "description": "Authors can manage the content they have created.",
   "permissions": [
     {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::account.account",
+      "properties": {
+        "fields": [
+          "nickname",
+          "twitter.name",
+          "twitter.follows",
+          "twitter.link",
+          "bio",
+          "jike.name",
+          "jike.follows",
+          "jike.link",
+          "youtube.name",
+          "youtube.follows",
+          "youtube.link",
+          "github.name",
+          "github.follows",
+          "github.link",
+          "tags",
+          "xhs.name",
+          "xhs.follows",
+          "xhs.link",
+          "douyin.name",
+          "douyin.follows",
+          "douyin.link",
+          "avatar"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::account.account",
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::account.account",
+      "properties": {
+        "fields": [
+          "nickname",
+          "twitter.name",
+          "twitter.follows",
+          "twitter.link",
+          "bio",
+          "jike.name",
+          "jike.follows",
+          "jike.link",
+          "youtube.name",
+          "youtube.follows",
+          "youtube.link",
+          "github.name",
+          "github.follows",
+          "github.link",
+          "tags",
+          "xhs.name",
+          "xhs.follows",
+          "xhs.link",
+          "douyin.name",
+          "douyin.follows",
+          "douyin.link",
+          "avatar"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::account.account",
+      "properties": {
+        "fields": [
+          "nickname",
+          "twitter.name",
+          "twitter.follows",
+          "twitter.link",
+          "bio",
+          "jike.name",
+          "jike.follows",
+          "jike.link",
+          "youtube.name",
+          "youtube.follows",
+          "youtube.link",
+          "github.name",
+          "github.follows",
+          "github.link",
+          "tags",
+          "xhs.name",
+          "xhs.follows",
+          "xhs.link",
+          "douyin.name",
+          "douyin.follows",
+          "douyin.link",
+          "avatar"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "accounts"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "accounts"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::tag.tag",
+      "properties": {
+        "fields": [
+          "name",
+          "accounts"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
       "action": "plugin::upload.assets.copy-link",
       "actionParameters": {},
       "subject": null,
