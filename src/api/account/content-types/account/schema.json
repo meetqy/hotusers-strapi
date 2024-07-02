@@ -10,36 +10,70 @@
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "nickname": {
       "type": "string",
       "required": true,
-      "unique": false
+      "unique": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "twitter": {
       "type": "component",
       "repeatable": false,
       "component": "account.account",
-      "required": false
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "bio": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "jike": {
       "type": "component",
       "repeatable": false,
-      "component": "account.account"
+      "component": "account.account",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "youtube": {
       "type": "component",
       "repeatable": false,
-      "component": "account.account"
+      "component": "account.account",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "github": {
       "type": "component",
       "repeatable": false,
-      "component": "account.account"
+      "component": "account.account",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "tags": {
       "type": "relation",
@@ -50,16 +84,31 @@
     "xhs": {
       "type": "component",
       "repeatable": false,
-      "component": "account.account"
+      "component": "account.account",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "douyin": {
       "type": "component",
       "repeatable": false,
-      "component": "account.account"
+      "component": "account.account",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "avatar": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

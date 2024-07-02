@@ -38,15 +38,6 @@
       ]
     },
     {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::account.account",
-      "properties": {},
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::account.account",
@@ -124,15 +115,6 @@
           "accounts"
         ]
       },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {},
       "conditions": [
         "admin::is-creator"
       ]

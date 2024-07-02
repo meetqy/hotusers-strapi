@@ -31,6 +31,10 @@
           "douyin.follows",
           "douyin.link",
           "avatar"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
@@ -39,7 +43,12 @@
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
       "subject": "api::account.account",
-      "properties": {},
+      "properties": {
+        "locales": [
+          "en",
+          "zh"
+        ]
+      },
       "conditions": []
     },
     {
@@ -70,6 +79,10 @@
           "douyin.follows",
           "douyin.link",
           "avatar"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
@@ -102,6 +115,10 @@
           "douyin.follows",
           "douyin.link",
           "avatar"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
@@ -114,6 +131,10 @@
         "fields": [
           "name",
           "accounts"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
@@ -122,7 +143,12 @@
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
       "subject": "api::tag.tag",
-      "properties": {},
+      "properties": {
+        "locales": [
+          "en",
+          "zh"
+        ]
+      },
       "conditions": []
     },
     {
@@ -133,6 +159,10 @@
         "fields": [
           "name",
           "accounts"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
@@ -145,6 +175,10 @@
         "fields": [
           "name",
           "accounts"
+        ],
+        "locales": [
+          "en",
+          "zh"
         ]
       },
       "conditions": []
