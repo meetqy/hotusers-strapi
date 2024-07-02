@@ -57,13 +57,11 @@
       "edit": [
         [
           {
-            "name": "follows",
-            "size": 4
-          }
-        ],
-        [
-          {
             "name": "link",
+            "size": 6
+          },
+          {
+            "name": "follows",
             "size": 6
           }
         ]
