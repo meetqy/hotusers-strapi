@@ -156,8 +156,8 @@
         },
         "list": {
           "label": "avatar",
-          "searchable": true,
-          "sortable": true
+          "searchable": false,
+          "sortable": false
         }
       },
       "bilibili": {
@@ -234,31 +234,25 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "nickname",
-        "twitter",
-        "bio"
-      ],
       "edit": [
         [
           {
             "name": "nickname",
-            "size": 4
-          },
-          {
-            "name": "avatar",
-            "size": 4
+            "size": 6
           },
           {
             "name": "tags",
-            "size": 4
+            "size": 6
           }
         ],
         [
           {
             "name": "bio",
-            "size": 12
+            "size": 6
+          },
+          {
+            "name": "avatar",
+            "size": 6
           }
         ],
         [
@@ -303,6 +297,12 @@
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "nickname",
+        "twitter",
+        "bio"
       ]
     },
     "uid": "api::account.account"

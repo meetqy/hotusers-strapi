@@ -4,6 +4,18 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::account.account.find"
+    },
+    {
+      "action": "api::account.account.findOne"
+    },
+    {
+      "action": "api::tag.tag.find"
+    },
+    {
+      "action": "api::tag.tag.findOne"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {
