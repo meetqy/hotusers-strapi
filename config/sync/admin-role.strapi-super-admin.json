@@ -26,7 +26,11 @@
           "douyin.link",
           "avatar",
           "bilibili.follows",
-          "bilibili.link"
+          "bilibili.link",
+          "instagram.follows",
+          "instagram.link",
+          "weibo.follows",
+          "weibo.link"
         ],
         "locales": [
           "en",
@@ -82,7 +86,11 @@
           "douyin.link",
           "avatar",
           "bilibili.follows",
-          "bilibili.link"
+          "bilibili.link",
+          "instagram.follows",
+          "instagram.link",
+          "weibo.follows",
+          "weibo.link"
         ],
         "locales": [
           "en",
@@ -114,7 +122,11 @@
           "douyin.link",
           "avatar",
           "bilibili.follows",
-          "bilibili.link"
+          "bilibili.link",
+          "instagram.follows",
+          "instagram.link",
+          "weibo.follows",
+          "weibo.link"
         ],
         "locales": [
           "en",

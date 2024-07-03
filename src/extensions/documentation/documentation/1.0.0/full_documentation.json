@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-03T06:35:36.893Z"
+    "x-generation-date": "2024-07-03T08:48:01.294Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -146,6 +146,12 @@
           "bilibili": {
             "$ref": "#/components/schemas/AccountAccountComponent"
           },
+          "instagram": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "weibo": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -214,6 +220,12 @@
                 "example": "string or id"
               },
               "bilibili": {
+                "$ref": "#/components/schemas/AccountAccountComponent"
+              },
+              "instagram": {
+                "$ref": "#/components/schemas/AccountAccountComponent"
+              },
+              "weibo": {
                 "$ref": "#/components/schemas/AccountAccountComponent"
               },
               "locale": {
@@ -1139,6 +1151,34 @@
                                           }
                                         }
                                       },
+                                      "instagram": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "follows": {
+                                            "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "weibo": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "follows": {
+                                            "type": "integer"
+                                          },
+                                          "link": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -1402,6 +1442,12 @@
             }
           },
           "bilibili": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "instagram": {
+            "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "weibo": {
             "$ref": "#/components/schemas/AccountAccountComponent"
           },
           "createdAt": {
@@ -2411,6 +2457,34 @@
                           }
                         },
                         "bilibili": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "follows": {
+                              "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "instagram": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "follows": {
+                              "type": "integer"
+                            },
+                            "link": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "weibo": {
                           "type": "object",
                           "properties": {
                             "id": {

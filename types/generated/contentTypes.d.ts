@@ -446,6 +446,18 @@ export interface ApiAccountAccount extends Schema.CollectionType {
           localized: false;
         };
       }>;
+    instagram: Attribute.Component<'account.account'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    weibo: Attribute.Component<'account.account'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

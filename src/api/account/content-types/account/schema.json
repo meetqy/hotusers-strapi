@@ -124,6 +124,26 @@
         }
       },
       "component": "account.account"
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "account.account"
+    },
+    "weibo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "account.account"
     }
   }
 }
