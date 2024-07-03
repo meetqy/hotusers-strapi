@@ -48,6 +48,18 @@
       "conditions": []
     },
     {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::account.account",
+      "properties": {
+        "locales": [
+          "en",
+          "zh"
+        ]
+      },
+      "conditions": []
+    },
+    {
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::account.account",
