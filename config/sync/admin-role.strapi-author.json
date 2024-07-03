@@ -94,7 +94,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": [
@@ -108,7 +109,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": [
@@ -122,7 +124,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": [

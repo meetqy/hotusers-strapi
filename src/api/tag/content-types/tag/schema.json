@@ -10,27 +10,24 @@
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
       "required": true,
       "unique": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "accounts": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::account.account",
       "inversedBy": "tags"
+    },
+    "name_zh": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

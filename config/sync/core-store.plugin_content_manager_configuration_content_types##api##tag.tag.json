@@ -48,6 +48,20 @@
           "sortable": false
         }
       },
+      "name_zh": {
+        "edit": {
+          "label": "name_zh",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name_zh",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -108,12 +122,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "name",
-        "accounts",
-        "createdAt"
-      ],
       "edit": [
         [
           {
@@ -121,10 +129,22 @@
             "size": 6
           },
           {
-            "name": "accounts",
+            "name": "name_zh",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "accounts",
+            "size": 12
+          }
         ]
+      ],
+      "list": [
+        "id",
+        "name",
+        "accounts",
+        "createdAt"
       ]
     },
     "uid": "api::tag.tag"

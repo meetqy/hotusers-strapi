@@ -7,8 +7,8 @@
       "searchable": true,
       "pageSize": 10,
       "mainField": "nickname",
-      "defaultSortBy": "nickname",
-      "defaultSortOrder": "ASC"
+      "defaultSortBy": "updatedAt",
+      "defaultSortOrder": "DESC"
     },
     "metadatas": {
       "id": {
@@ -300,8 +300,8 @@
       ],
       "list": [
         "id",
+        "avatar",
         "nickname",
-        "twitter",
         "bio"
       ]
     },

@@ -130,11 +130,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
-        ],
-        "locales": [
-          "en",
-          "zh"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": []
@@ -143,12 +140,7 @@
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
       "subject": "api::tag.tag",
-      "properties": {
-        "locales": [
-          "en",
-          "zh"
-        ]
-      },
+      "properties": {},
       "conditions": []
     },
     {
@@ -158,11 +150,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
-        ],
-        "locales": [
-          "en",
-          "zh"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": []
@@ -174,11 +163,8 @@
       "properties": {
         "fields": [
           "name",
-          "accounts"
-        ],
-        "locales": [
-          "en",
-          "zh"
+          "accounts",
+          "name_zh"
         ]
       },
       "conditions": []
