@@ -6,9 +6,9 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "name",
-      "defaultSortOrder": "ASC"
+      "mainField": "name_zh",
+      "defaultSortBy": "updatedAt",
+      "defaultSortOrder": "DESC"
     },
     "metadatas": {
       "id": {
@@ -142,6 +142,7 @@
       ],
       "list": [
         "id",
+        "name_zh",
         "name",
         "accounts",
         "createdAt"
