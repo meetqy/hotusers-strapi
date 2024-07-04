@@ -459,7 +459,6 @@ export interface ApiAccountAccount extends Schema.CollectionType {
         };
       }>;
     slug: Attribute.String &
-      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
