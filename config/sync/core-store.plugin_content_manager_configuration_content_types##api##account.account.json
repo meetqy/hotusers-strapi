@@ -360,7 +360,7 @@
         "id",
         "avatar",
         "nickname",
-        "bio"
+        "slug"
       ]
     },
     "uid": "api::account.account"
