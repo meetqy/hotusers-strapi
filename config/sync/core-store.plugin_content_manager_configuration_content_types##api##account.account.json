@@ -283,11 +283,11 @@
             "size": 4
           },
           {
-            "name": "slug",
+            "name": "tags",
             "size": 4
           },
           {
-            "name": "tags",
+            "name": "slug",
             "size": 4
           }
         ],
