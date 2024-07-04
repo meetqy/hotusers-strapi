@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-03T08:48:01.294Z"
+    "x-generation-date": "2024-07-04T02:52:52.582Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -90,6 +90,7 @@
         "required": [
           "nickname",
           "bio",
+          "slug",
           "locale"
         ],
         "type": "object",
@@ -152,6 +153,9 @@
           "weibo": {
             "$ref": "#/components/schemas/AccountAccountComponent"
           },
+          "slug": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -166,7 +170,8 @@
           "data": {
             "required": [
               "nickname",
-              "bio"
+              "bio",
+              "slug"
             ],
             "type": "object",
             "properties": {
@@ -227,6 +232,9 @@
               },
               "weibo": {
                 "$ref": "#/components/schemas/AccountAccountComponent"
+              },
+              "slug": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -353,7 +361,8 @@
         "type": "object",
         "required": [
           "nickname",
-          "bio"
+          "bio",
+          "slug"
         ],
         "properties": {
           "nickname": {
@@ -1179,6 +1188,9 @@
                                           }
                                         }
                                       },
+                                      "slug": {
+                                        "type": "string"
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -1449,6 +1461,9 @@
           },
           "weibo": {
             "$ref": "#/components/schemas/AccountAccountComponent"
+          },
+          "slug": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -2498,6 +2513,9 @@
                             }
                           }
                         },
+                        "slug": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -2995,7 +3013,8 @@
             "deprecated": false,
             "required": false,
             "schema": {
-              "type": "object"
+              "type": "object",
+              "additionalProperties": true
             },
             "style": "deepObject"
           },
@@ -3592,7 +3611,8 @@
             "deprecated": false,
             "required": false,
             "schema": {
-              "type": "object"
+              "type": "object",
+              "additionalProperties": true
             },
             "style": "deepObject"
           },

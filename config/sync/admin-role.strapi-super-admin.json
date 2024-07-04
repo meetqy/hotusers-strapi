@@ -30,7 +30,8 @@
           "instagram.follows",
           "instagram.link",
           "weibo.follows",
-          "weibo.link"
+          "weibo.link",
+          "slug"
         ],
         "locales": [
           "en",
@@ -90,7 +91,8 @@
           "instagram.follows",
           "instagram.link",
           "weibo.follows",
-          "weibo.link"
+          "weibo.link",
+          "slug"
         ],
         "locales": [
           "en",
@@ -126,7 +128,8 @@
           "instagram.follows",
           "instagram.link",
           "weibo.follows",
-          "weibo.link"
+          "weibo.link",
+          "slug"
         ],
         "locales": [
           "en",

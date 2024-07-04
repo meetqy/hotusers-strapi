@@ -144,6 +144,18 @@
         }
       },
       "component": "account.account"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false,
+      "targetField": "nickname",
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "required": true
     }
   }
 }

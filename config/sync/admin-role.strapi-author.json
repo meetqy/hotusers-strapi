@@ -24,7 +24,8 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "slug"
         ]
       },
       "conditions": [
@@ -52,7 +53,8 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "slug"
         ]
       },
       "conditions": [
@@ -80,7 +82,8 @@
           "xhs.link",
           "douyin.follows",
           "douyin.link",
-          "avatar"
+          "avatar",
+          "slug"
         ]
       },
       "conditions": [
